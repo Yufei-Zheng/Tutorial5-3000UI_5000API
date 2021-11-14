@@ -1,15 +1,33 @@
-### 1. Commands
+### 1. Commands### 
 
 ```
-$ cd api
-$ screen mongod #to run mongod
-# Press ctrl+a+d to return to terminal
-$ mongo issuetracker scripts/init.mongo.js #to initiate mongodb
-$ screen npm start #to run API server using port 5000
-# Press ctrl+a+d to return to terminal
-$ cd ../ui
-$ npm run build #to prepare files using Webpack
-$ screen npm run dev #to run UI server using port 3000
+cd api
+```
+Run mongod:
+```
+screen mongod
+```
+\# Press ctrl+a+d to return to terminal
+
+Initiate mongodb:
+```
+mongo issuetracker scripts/init.mongo.js
+```
+Run API server using port 5000:
+```
+screen npm start
+```
+\# Press ctrl+a+d to return to terminal
+```
+cd ../ui
+```
+Prepare files using Webpack:
+```
+npm run build
+```
+run UI server using port 3000:
+```
+screen npm run dev
 ```
 
 ### 2. Q2
@@ -26,7 +44,7 @@ $ node trymongo.js
 #### results
 
 ```
-1.
+(1).
 Result of insertMany and insertOne:
  [ { _id: 617abf5f969a20133b33dc15,
     serial: 1,
@@ -41,7 +59,7 @@ Result of insertMany and insertOne:
     name: 'Cindy',
     contact: '56781234' } ]
 
-2.    
+(2).    
 Result of find serial no.1:
  [ { _id: 617abf5f969a20133b33dc15,
     serial: 1,
@@ -53,7 +71,7 @@ Result of find serial no.2 (using projection):
     name: 'Bob',
     contact: '87654321' } ]
 
-3.
+(3).
 Result of updateOne, updateMany and replaceOne:
  [ { _id: 617abf5f969a20133b33dc15,
     serial: 1,
@@ -70,7 +88,7 @@ Result of updateOne, updateMany and replaceOne:
     name: 'Updated_Cindy',
     contact: 'Updated_56781234' } ]
 
-4.    
+(4).    
 Result of delete (using aggerate):
  [ { _id: null, count: 2 } ]
 ```
