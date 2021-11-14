@@ -2,6 +2,8 @@
 
 ```
 cd api
+npm install
+npm install graphql@^14.2.1 || ^15.0.0
 ```
 Run mongod:
 ```
@@ -20,6 +22,7 @@ screen npm start
 \# Press ctrl+a+d to return to terminal
 ```
 cd ../ui
+npm install
 ```
 Prepare files using Webpack:
 ```
