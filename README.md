@@ -3,7 +3,6 @@
 ```
 cd api
 npm install
-npm install graphql@^14.2.1 || ^15.0.0
 ```
 Run mongod:
 ```
