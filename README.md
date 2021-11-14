@@ -1,4 +1,4 @@
-### 1. Commands### 
+### 1. Commands to execute the project
 
 ```
 cd api
@@ -32,7 +32,7 @@ screen npm run dev
 
 ### 2. Q2
 
-#### commands
+#### commands to execute Q2
 
 ```
 $ cd home/IT5007/api/scripts
